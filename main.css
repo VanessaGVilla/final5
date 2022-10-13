@@ -1,1 +1,92 @@
+body {
+  font-family: cursive;
+  padding: 0;
+  background: url(https://raw.githubusercontent.com/VanessaGVilla/final5/main/bats.gif);
+}
+#main {
+  height: 620px;
+  width: 800px;
+  border: black 4px solid;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.78) 23px 54px 55px,
+    rgba(0, 0, 0, 0.62) 33px 12px 30px, rgba(0, 0, 0, 0.62) 20px 40px 60px,
+    rgba(0, 0, 0, 0.57) 33px 12px 13px, rgba(0, 0, 0, 0.79) 20px 45px 50px;
+}
+.m {
+  border: 1 px solid black;
+}
+#heading {
+  height: 87px;
+  border-bottom: 3px black solid;
+  background-image: linear-gradient(to right, white, orange 45%, black);
+}
+#halo {
+  position: relative;
+  left: 86px;
+  top: -98px;
+}
+#heading h3 {
+  position: relative;
+  left: 92px;
+  top: -115px;
+}
+#heading img {
+  height: 80px;
+  width: 80px;
+}
+#bot {
+  width: initial;
+  height: 60px;
+  border: 3px solid black;
+  background-image: linear-gradient(to left, white, orange 45%, black);
+}
+#maintext1 {
+  font-size: 62px;
+  position: relative;
+  right: -12px;
+}
+#maintext2 {
+  position: relative;
+  top: -95px;
+  left: 65px;
+  font-size: 29px;
+}
+#lowertext {
+  position: relative;
+  top: -102px;
+}
+#lowertext h3 {
+  position: relative;
+  left: 20px;
+}
+#lowertext p {
+  width: 780px;
+  position: relative;
+  left: 24px;
+  top: -6px;
+}
+#para {
+  position: relative;
+  top: -84px;
+  width: 750px;
+  left: 29px;
+}
+#prod {
+  position: relative;
+  top: -87px;
+  left: 19px;
+}
+#prod a {
+  color: orange;
+}
+#mcontent {
+  height: 500px;
+  background-color: rgb(240, 248, 255);
+}
+#footercontent {
+  text-align: center;
+  font-weight: 100;
+}
 
