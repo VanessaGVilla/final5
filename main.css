@@ -1,92 +1,68 @@
-body {
-  font-family: cursive;
-  padding: 0;
-  background: url(https://raw.githubusercontent.com/VanessaGVilla/final5/main/bats.gif);
+html{
+background-image: url(https://raw.githubusercontent.com/VanessaGVilla/final5/main/bats.gif);
+background-repeat: repeat;
 }
-#main {
-  height: 620px;
-  width: 800px;
-  border: black 4px solid;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.78) 23px 54px 55px,
-    rgba(0, 0, 0, 0.62) 33px 12px 30px, rgba(0, 0, 0, 0.62) 20px 40px 60px,
-    rgba(0, 0, 0, 0.57) 33px 12px 13px, rgba(0, 0, 0, 0.79) 20px 45px 50px;
+body{
+margin:0;
+font-family: sans-serif;
+max-width: 900px;
+background-color: white;
+border-style: solid;
+margin-left: auto;
+margin-right:auto;
+box-shadow: 10px 5px 5px 10px;
 }
-.m {
-  border: 1 px solid black;
+main{
+padding:20px;
+padding-left:30px;
+margin-top:-20px;
 }
-#heading {
-  height: 87px;
-  border-bottom: 3px black solid;
-  background-image: linear-gradient(to right, white, orange 45%, black);
-}
-#halo {
-  position: relative;
-  left: 86px;
-  top: -98px;
-}
-#heading h3 {
-  position: relative;
-  left: 92px;
-  top: -115px;
-}
-#heading img {
-  height: 80px;
-  width: 80px;
-}
-#bot {
-  width: initial;
-  height: 60px;
-  border: 3px solid black;
-  background-image: linear-gradient(to left, white, orange 45%, black);
-}
-#maintext1 {
-  font-size: 62px;
-  position: relative;
-  right: -12px;
-}
-#maintext2 {
-  position: relative;
-  top: -95px;
-  left: 65px;
-  font-size: 29px;
-}
-#lowertext {
-  position: relative;
-  top: -102px;
-}
-#lowertext h3 {
-  position: relative;
-  left: 20px;
-}
-#lowertext p {
-  width: 780px;
-  position: relative;
-  left: 24px;
-  top: -6px;
-}
-#para {
-  position: relative;
-  top: -84px;
-  width: 750px;
-  left: 29px;
-}
-#prod {
-  position: relative;
-  top: -87px;
-  left: 19px;
-}
-#prod a {
-  color: orange;
-}
-#mcontent {
-  height: 500px;
-  background-color: rgb(240, 248, 255);
-}
-#footercontent {
-  text-align: center;
-  font-weight: 100;
-}
+main h1::first-letter{
+font-size: 200%;
 
+}
+img{
+float: left;
+display: inline;
+vertical-align: middle;
+}
+header{
+vertical-align: middle;
+margin:0;
+padding: 1px;
+border-bottom: 2px solid;
+background: linear-gradient(45deg, white, orange, black);
+}
+header>h1{
+padding-left: 80px;
+margin-bottom:0;
+margin-left:30px;
+
+}
+header>h3{
+
+margin-top:0;
+padding-left: 80px;
+margin-left:30px;
+}
+a:link,a:visited{
+color: orange;
+}
+a:hover,a:focus{
+color: green;
+}
+li{
+margin:0;
+//padding: .4em;
+}
+footer{
+margin-top:-10px;
+height: 50px;
+font-size: 16px;
+
+border-top: 2px solid;
+background: linear-gradient(45deg, black, orange, white);
+}
+footer>p{
+text-align: center;
+}
